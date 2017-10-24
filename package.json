@@ -1,0 +1,31 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inside/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inside/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/inside/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "style-loader": "^0.19.0",
+    "webpack": "1.12.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webpack-require-from": "^1.0.1"
+  }
+}
